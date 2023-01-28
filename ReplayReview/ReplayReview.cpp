@@ -53,7 +53,7 @@ void ReplayReview::onLoad()
 	
 	cvarManager->setBind("B", "show_player_boost");
 	cvarManager->setBind("X", "show_crosshair");
-	cvarManager->setBind("V", "draw_line");
+	cvarManager->setBind("ThumbMouseButton2", "draw_line");
 	cvarManager->setBind("C", "clear_line");
 	cvarManager->setBind("O", "hide_hud");
 	
